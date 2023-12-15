@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>WeGym Academias</title>
+  </head>
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">WEGYM</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto nav-pills">              
+              <li class="nav-item">
+                <a class="nav-link" href="#whoAre">QUEM SOMOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gyms">UNIDADES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactUs">FALE CONOSCO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.php">ACESSAR PORTAL</a>
+              </li> 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Portais
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="./aluno/aluno.php">Aluno</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="nav-link" href="professor.php">Professor</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Item 3</a>
+                </div>      
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- CARROSSEL -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner carrossel-personalizado">
+
+          <div class="carousel-item active">
+            <img class="d-block w-100"
+                 src="./img/carrousel-1.jpg"
+                 alt="Primeiro Slide">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100"
+                 src="./img/carrousel-2.jpg"
+                 alt="Segundo Slide">            
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100"
+                 src="./img/carrousel-3.jpg"
+                 alt="Terceiro Slide">   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+      <!-- NOME -->
+      <div class="centralizado-red divisao-paginas">
+        <h1 class="title-red">WEGYM | Academias</h1>
+        <p>A WeGym é a sua rede de academias, estamos onde você estiver, sempre tem uma WeGym pertinho de você!<br />Conte conosco para mais saúde e qualidade de vida!</p>
+      </div>      
+
+      <!-- CARDS-->
+      <section class="divisao-paginas teste">
+        <h1 id="gyms" class="title-white">NOSSAS UNIDADES</h1>
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top"
+                 src="./img/gyms.jpg" 
+                 alt="Imagem de capa do card">
+            <div class="card-body ">
+              <div>
+                <h5 class="card-title text-center text-danger">Boa Viagem</h5>                
+              </div>                           
+              <hr>
+              <div>
+                <h5 class="text-danger"><i class=" fa-sharp fa-solid fa-location-dot text-black-50 mr-3"></i>Endereço</h5>
+                <p>Av. Conselheiro Aguiar, 610 - Boa Viagem - Recife/PE</p>
+                <h5 class="text-danger"><i class="fa-solid fa-clock text-black-50 mr-3"></i>Horário</h5>
+                <p class="font-weight-bold">Segunda a Sexta</p>
+                <p>05:30 às 23:00</p>
+                <p class="font-weight-bold">Sábado e Domingo</p>
+                <p>08:00 às 14:00</p>               
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top"
+                 src="./img/gyms.jpg"
+                 alt="Imagem de capa do card">
+            <div class="card-body ">
+              <div>
+                <h5 class="card-title text-center text-danger">Candeias</h5>                
+              </div>                           
+              <hr>
+              <div>
+                <h5 class="text-danger"><i class=" fa-sharp fa-solid fa-location-dot text-black-50 mr-3"></i>Endereço</h5>
+                <p>Av. Bernardo Vieira de Melo, 4534 - Candeias/PE</p>
+                <h5 class="text-danger"><i class="fa-solid fa-clock text-black-50 mr-3"></i>Horário</h5>
+                <p class="font-weight-bold">Segunda a Sexta</p>
+                <p>05:30 às 23:00</p>
+                <p class="font-weight-bold">Sábado e Domingo</p>
+                <p>08:00 às 14:00</p>                         
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top"
+                 src="./img/gyms.jpg" 
+                 alt="Imagem de capa do card">
+            <div class="card-body ">
+              <div>
+                <h5 class="card-title text-center text-danger">Madalena</h5>                
+              </div>                           
+              <hr>
+              <div>
+                <h5 class="text-danger"><i class=" fa-sharp fa-solid fa-location-dot text-black-50 mr-3"></i>Endereço</h5>
+                <p>Rua Real da Torre, 560 - Madalena - Recife/PE</p>
+                <h5 class="text-danger"><i class="fa-solid fa-clock text-black-50 mr-3"></i>Horário</h5>
+                <p class="font-weight-bold">Segunda a Sexta</p>
+                <p>05:30 às 23:00</p>
+                <p class="font-weight-bold">Sábado e Domingo</p>
+                <p>08:00 às 14:00</p>                 
+              </div>
+            </div>
+          </div>
+        </div>       
+      </section> 
+      <!-- FECHAMENTO DOS CARDS -->
+      <!-- FEATUREZINHA -->
+      <hr class="featurette-divider">
+      <div id="featurezinha">
+        <h2 id="whoAre" class="featurette-heading centralizado-red">SOBRE NÓS.</h2>
+        <div class="row featurette">
+          <div class="col-md-7 centralizado padding-10">
+            <p class="lead"> A WeGym foi fundada no ano de 2000, temos orgulho em afirmar que mais de 50% de nossos alunos estão conosco desde nossa fundação. Aprendemos muito ao longo dessa caminhada, fizemos muitos amigos. Nosso atendimento exclusivo e nossa preocupação em oferecer sempre o melhor faz da nossa academia, um ponto de encontro entre amigos, aqui tem muita energia positiva!</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="./img/who_are.jpeg" alt="Generic placeholder image">
+          </div>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+    </main>
+    <!-- ÍNÍCIO DOS FOOTERS -->
+    <section>
+      <footer id="footer1" class="container">
+        <h5 id="contactUs"class=" title-red">  FALE CONOSCO
+        </h5>
+        <div class="row mb-5">
+          <div class="col-lg-3 col-sm-6 mb-2">
+            <div class="card centralizado-background-red">
+              <div class="card-body text-center px-0">
+                <h4 class="text-white px-0"><strong>E-MAIL</strong></h4>
+                <a href="#">                  
+                  <h6 class="card-title px-0">
+                    <i class="text-white fa-regular fa-envelope"></i>
+                  </h6>
+                </a>                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-2">
+            <div class="card centralizado-background-red">
+              <div class="card-body text-center px-0">
+                <h4 class="text-white px-0"><strong>TELEFONE</strong></h4>
+                <a href="#">                  
+                  <h6 class="card-title px-0">
+                    <i class="text-white fa-solid fa-phone"></i>
+                  </h6>
+                </a>                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-2">
+            <div class="card centralizado-background-red">
+              <div class="card-body text-center px-0">
+                <h4 class="text-white px-0"><strong>INSTAGRAM</strong></h4>
+                <a href="#">                  
+                  <h6 class="card-title px-0">
+                    <i class="text-white fa-brands fa-instagram"></i>
+                  </h6>
+                </a>                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-2">
+            <div class="card centralizado-background-red">
+              <div class="card-body text-center px-0">
+                <h4 class="text-white px-0"><strong>FACEBOOK</strong></h4>
+                <a href="#">                  
+                  <h6 class="card-title px-0">
+                    <i class="text-white fa-brands fa-facebook"></i>
+                  </h6>
+                </a>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <section id="footer2" class="centralizado-red">
+      <footer >
+          <p><small>&copy; 2023. Developed by: Walkíria Torres</small></p>
+      </footer>
+    </section>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
